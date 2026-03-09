@@ -1,0 +1,150 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+#container{
+    height: 100vh;
+    background-color: hsl(235, 18%, 26%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#main{
+    width: 800px;
+    height: 550px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+#inner{
+    display: flex;
+    width: 95%;
+    height: 95%;
+    gap: 20px;
+}
+
+#text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 55%;
+    height: 100%;
+    gap: 30px;
+    
+}
+
+#text h1{
+    font-size: 40px;
+    color: hsl(234, 29%, 20%);
+
+
+}
+
+#text p{
+    color: hsl(234, 29%, 20%);
+}
+
+.succes{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+#main2 img{
+    width: 20px;
+}
+
+#main2{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+
+
+#img{
+    width: 45%;
+    height: 100%;
+    background-image: url(./assets/images/illustration-sign-up-desktop.svg);
+    background-position: right;
+    border-radius: 10px;
+}
+
+
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+   
+}
+
+input{
+     height: 50px;
+     border: 1px solid gray;
+     border-radius: 8px;
+     padding-left: 20px ;
+}
+
+label{
+    font-size: 10px;
+    color: hsl(234, 29%, 20%);
+    font-weight: 800;
+}
+
+button{
+    width: 100%;
+    border: none;
+    background-color: hsl(234, 29%, 20%);
+    height: 50px;
+    border-radius: 10px;
+    color: white;
+    font-weight: 550;
+}
+
+@media(max-width: 768px){
+    #inner{
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    #main{
+        width: 100%;
+        height: 100%;
+    }
+    #img{
+        background-image: url(./assets/images/illustration-sign-up-tablet.svg);
+        background-repeat: no-repeat;
+        width: 70%;
+        height: 30;
+    }
+}
+
+@media(max-width:435px){
+    #img{
+        background-image: url(./assets/images/illustration-sign-up-mobile.svg);
+        width: 100%;
+        height: 60%;
+        background-size: cover;
+    }
+
+    #inner{
+        width: 100%;
+        height: 100%;
+    }
+    #text{
+        width: 90%;
+    }
+
+}
+

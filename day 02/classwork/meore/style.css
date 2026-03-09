@@ -1,0 +1,32 @@
+#container{
+    height: 100vh;
+    display: flex;
+    
+    
+
+}
+
+#pirveli{
+    background-color: blue;
+    width: 40%;
+    height:40%;
+}
+
+
+#meore{
+    background-color: rgb(255, 0, 0);
+    width: 40%;
+    height:40%;
+}
+
+#mesame{
+    background-color: rgb(0, 255, 76);
+    width: 40%;
+    height:40%;
+}
+
+@media(max-width: 480px){
+    #container{
+        flex-direction: column;
+    }
+}
