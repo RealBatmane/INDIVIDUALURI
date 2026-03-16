@@ -1,0 +1,13 @@
+.length  - // gvichvenebs tu ramdeni asoa stringshi rodesac stringze viyenebt
+.charAt() - // gadavcemt index da mag konkretul indexze myof monacems abrunebs  
+.concat() - // or strings an mets aertianebs ermanettan
+.at() - // at gadauvlis codes da rodesac ipovis codeshi imas rac brchxilebshia moqceuli at-i codes gaanawilebs danarcheni monacemebisgan
+.slice() - // mivutitebt starts with da ends with 
+.substring() - // igivea rac slicing (1.3) es 1 dan 3 amde rac weria magas amoigebs 
+.toUpperCase() -// gaxdis yvela asos uppercase
+.toLowerCase() -//gaxdis yvela asos lowercase
+.trim() - // trim is meshveobit vashorebt yvela mxridan spaceebs
+.repeat() - //ameorebs codes imdenjer ramden raodenobasac mivuwert
+.replace() - // anacvlebs ert konkrtetul pirvel mnishnvelobas 
+.replaceAll() / //  anacvlebs ert konkretul mnishnvelobas romelic sheidzleba ertze metjer gameordes
+.split() -// gadaaqcevs strings listad da yovel miniwebul mnishnvelobaze gayofs
