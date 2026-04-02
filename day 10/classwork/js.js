@@ -1,28 +1,48 @@
-// ახსენით რა არის block scope, global scope   block scope shemtxvevashi cvladi tu funqciashia moqceuli mxolod funqciashi iqneba da funqciis garet ver gamovidzaxebt da global shemtxvevashi kide sadac gvinda iq gamovidzaxebt
+// // 1)შექმენი ფუნქცია რომელსაც გადასცემ 3 პარამეტრს name,age,city და დააბრუნებ ერთ დიდ წინადადებას
+
+function smth(name,age,city){
+    return `my name is ${name} im ${age} years old and i live in ${city}`
+}
+console.log(smth("nikolozi","15","tbilisi"))
 
 
 
-// გააკეთეთ თითო მაგალითი თითო scope ზე და ახსენით კომენტარებით
 
-// global scope
 
-let name = "nikolozi"
 
-const ragaca = () => {
-    return `hello my name is ${name} `
+
+
+
+
+
+
+
+
+
+
+
+
+// 2)შექმენი ფუნქცია რომელსაც გადასცემ 2 პარამეტრს num1 num2 და უნდა დააბრუნო ამ ორი რიცხვის ჯამი
+
+function n(num1,num2){
+    return num1 * num2
 }
 
-console.log(ragaca())
+console.log(n(5,5))
 
 
-// block scope
 
-const func = () => {
-    let lastName = "lursmanashvili"
-    return `and  my last name is ${lastName}`
 
+
+
+
+
+
+
+// 3)შექმენი ფუნქცია რომელსაც გადაეცემა ორი პარამეტრი, თქვენი დავალებააა გამოიტანოთ პირველი რიცხვი აკვადრატებული მეორე რიცხვზე.
+
+function ab(a,b){
+    return a**b
 }
 
-console.log(func())
-// tu chven davapirebt ro lastname gamovidzaxot calke funqciis garet gamogvitans errors
-console.log(lastName)   
+console.log(ab(5,5))

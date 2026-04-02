@@ -2,7 +2,7 @@
 
 
 // 2) რა არის console.log()  დეტალურად ახსენი.
- console log log aris erterti funqcia consoleis romelsac igive funqciaaq rogorc prins ubralod chven es console shi gamogvaq anu web shi
+//  console log log aris erterti funqcia consoleis romelsac igive funqciaaq rogorc prins ubralod chven es console shi gamogvaq anu web shi
 
 // 3) ამ სტრინგის მეთოდებზე მოიყვანე თითო-თოთო მაგალითი და კოდი ახსენი კომენტარის სახით:
 // .charAt() - mititebul indexze myof monacebs abrunebs
